@@ -2,6 +2,7 @@
 
 [![Hermes Agent](https://img.shields.io/badge/Hermes-Agent-blue)](https://hermes-agent.nousresearch.com)
 [![Skill](https://img.shields.io/badge/Skill-globant--frontend--design-green)](https://hermes-agent.nousresearch.com/docs/skills)
+[![Security](https://img.shields.io/badge/SkillSpector-0%2F100%20SAFE-success)](https://github.com/nvidia/skillspector)
 
 A production-ready **Hermes Agent skill** for generating authentic Globant-branded frontend interfaces.
 
@@ -77,6 +78,18 @@ The packaged `.skill` file contains:
 ## Contributing
 
 This skill is designed to be extended. If you have access to Globant's internal brand assets or want to add new components, open an issue or PR.
+
+## Security
+
+This skill has been scanned with **[NVIDIA SkillSpector](https://github.com/nvidia/skillspector)** (security scanner for AI agent skills).
+
+- **Risk Score**: 0/100
+- **Severity**: LOW
+- **Status**: ✅ SAFE — No vulnerabilities, prompt injection risks, data exfiltration patterns, privilege escalation, MCP tool poisoning, or malicious code detected across 64+ patterns.
+- **Scan Date**: 2026-06-17
+- **Tool**: Static analysis (YARA + AST + taint tracking + behavioral rules)
+
+The packaged `.skill` file and source contain only design tokens, brand guidelines, and reference implementations with no executable scripts or dangerous patterns.
 
 ## License
 
