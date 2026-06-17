@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Hermes / temp
+*.log
+tmp/
+cache/
+
+# Node / build (if any examples added later)
+node_modules/
+dist/
+build/
